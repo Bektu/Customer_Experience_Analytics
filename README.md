@@ -11,17 +11,21 @@ This repository contains
 which are aimed to improve banking mobile apps to enhance customer retention and satisfaction.
 
 
-Repo Structure
-├── notebooks/ 
-│ └── Customer.ipynb # Main notebook (EDA & quantitative analysis) 
+Repo Structurefintech_app_reviews/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   └── main_pipeline.ipynb
 ├── scripts/
-│ └── eda.py # Custom module: News EDA visualizations 
-│ └── sentiment.py # Custom module
-│ └── analyser.py # (Planned) 
-│ └── corr.py # (Planned) 
-├── data/ │ ├── scraped.csv # dataset 
-│ └── Cleaned_data/
-├── requirements.txt # Python dependencies 
+│   ├── scrape_reviews.py
+│   ├── preprocess.py
+│   ├── sentiment_analysis.py
+│   ├── thematic_analysis.py
+│   ├── oracle_db.py
+│   └── utils.py
+├── requirements.txt
 └── README.md
+
 
 👤 Author GitHub:-Bektu G. Dida
