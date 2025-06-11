@@ -3,6 +3,7 @@
 import pandas as pd
 import os
 from transformers import pipeline
+from script.preprocess import preprocess_reviews_df
 
 CLEAN_DATA_PATH = "../data/clean/all_banks_reviews_clean.csv"
 SENTIMENT_OUTPUT_PATH = "../data/processed/reviews_with_sentiment.csv"

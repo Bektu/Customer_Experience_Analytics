@@ -28,7 +28,7 @@ class _ContinuationToken:
         self.token = token
         self.lang = lang
         self.country = country
-       # self.sort = sort
+        self.sort = sort
         self.count = count
         self.filter_score_with = filter_score_with
         self.filter_device_with = filter_device_with
